@@ -16,4 +16,6 @@ Instale as dependências com o comando abaixo:
 ou se estiver usando o linux com o python3:
 - pip3 install -r requirements.txt
 
-Use o Pycharm, Thonny, Vs Studio ou outra IDE python para rodar o arquivo 'Gerador_de_QR_Code.py'
+Use o Pycharm, Thonny, Vs Studio ou outra IDE python para rodar o arquivo 'Gerador_de_QR_Code.py' via console ou o arquivo 'Gerador_de_QR_Interface_grafica.py' para ter a interface gráfica...
+
+## Obrigado!!!!
