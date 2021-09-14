@@ -24,7 +24,7 @@ while True:
         nome_arquivo = 'default.png'
     img.save(nome_arquivo)
     caminho = (pathlib.Path(__file__).parent.absolute())
-    print(f'Aquivo {nome_arquivo} gerado com sucesso!!!') 
+    print(f'Arquivo "{nome_arquivo.upper()}" gerado com sucesso!!!') 
     webbrowser.open(f'{caminho}/{nome_arquivo}')
 
 window.close()
