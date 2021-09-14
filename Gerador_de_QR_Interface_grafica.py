@@ -3,10 +3,11 @@ import qrcode
 import pathlib
 import webbrowser
 
-sg.theme('SystemDefault')   # Add a touch of color
+sg.theme('SystemDefault')   # Adicione um tema de sua preferência
 # All the stuff inside your window.
-layout = [  [sg.Text('Digite o link ou texto para converter em QR CODE: '), sg.InputText()],
-            [sg.Text('Nome da imagem gerada. Exemplo.: "default.png:" '), sg.InputText()],
+layout = [  [sg.Text('Digite o conteúdo para converter em QR CODE: '), sg.InputText()],
+            [sg.Text('Digite o nome da imagem. Ex.: "default.png": '), sg.InputText()],
+            [sg.Text('Status:'), sg.Output(size=(80, 1))],
             [sg.Button('Ok'), sg.Button('Cancel')] ]
 # Create the Window
 window = sg.Window('GERADOR DE QR CODE', layout)
