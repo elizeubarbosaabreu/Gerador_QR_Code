@@ -15,10 +15,10 @@ while True:
     event, values = window.read()
     if event == sg.WIN_CLOSED or event == 'Cancel': # if user closes window or clicks cancel
         break
-    conteudo = values[0]
+    conteudo = values[1]
     img = qrcode.make(conteudo)
     type(img)
-    nome_arquivo = (values[1])
+    nome_arquivo = (values[2])
     if nome_arquivo == '':
         nome_arquivo = 'default.png'
     img.save(nome_arquivo)
