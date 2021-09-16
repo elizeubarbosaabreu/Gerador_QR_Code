@@ -1,7 +1,7 @@
 import PySimpleGUI as sg
 import qrcode, pathlib, webbrowser
 
-sg.theme('Dark')   # Adicione um tema de sua preferência
+sg.theme('Reddit')   # Adicione um tema de sua preferência
 # Conteúdo da janela.
 layout = [  [sg.Image('image/app.png'), sg.Text('GERADOR DE QR CODE')],
             [sg.Text('Conte\u00fado para converter em QR CODE: '), sg.InputText(size=(33, 5))],
