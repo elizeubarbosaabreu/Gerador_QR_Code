@@ -42,7 +42,8 @@ while True:
     conteudo = values['-conteudo-']    
     img = qrcode.make(conteudo)
     type(img)
-    nome_arquivo = (values['-nome_da_imagem-'])
+
+    nome_arquivo = values['-nome_da_imagem-']
     
     if nome_arquivo == '':
         nome_arquivo = 'default.png'
