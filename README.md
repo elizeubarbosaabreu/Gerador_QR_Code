@@ -13,6 +13,8 @@
 O primeiro requisito é ter o python em seu computador. Python roda em todos os sistemas operacionais. **Gerador de QR CODE em Python** foi criado com a versão 3 do Python. Adquira o Python no site oficial: [https://python.org/](https://python.org/)...
 
 ## Instalando no Windows
+
+Abra o prompt de comandos e digite os comandos abaixo seguido de ENTER:
  
 ~~~python
 
@@ -26,6 +28,8 @@ python app.py
 ~~~
 
 ## Instalando no Linux, MAC e outros
+
+Abra o terminal e cole os comandos e tecle ENTER:
  
 ~~~python
 
